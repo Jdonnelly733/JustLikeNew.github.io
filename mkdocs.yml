@@ -1,0 +1,62 @@
+site_name: JustLikeNew
+site_author: Jack Donnelly
+site_url: http://justlikenew.github.io
+site_description: >-
+    JustLikeNew Mobile Auto Detailing and Washing
+
+
+nav:
+    - Home: index.md
+    - About Me: bio.md
+    - Projects: feed.md
+
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+plugins:
+  - glightbox
+
+
+repo_url: https://github.com/Jdonnelly733/justlikenew.github.io
+repo_name: Jdonnelly733/justlikenew.github.io
+
+
+
+
+theme:
+    name: material
+    features:
+      - content.code.annotate 
+    
+    font:
+      text: Raleway
+      code: Exo 2
+    favicon: assets/icon.png
+    nav_style: dark
+    logo: assets/Header.png
+    palette:
+    - scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
